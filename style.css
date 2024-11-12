@@ -1,12 +1,31 @@
 
+body {
+    margin: 0;
+}
 
+h1 {
+    margin: 0;
+}
 .header {
     background-color: #1F2937;
     font-family: Roboto;
-    width: 100%
+    padding-right: 120px;
+    padding-left: 120px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    color: #F9FAF8;
+    gap: 24px;
 }
