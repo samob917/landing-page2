@@ -29,3 +29,12 @@ ul {
     color: #F9FAF8;
     gap: 24px;
 }
+
+.hero {
+    background-color: #1F2937;
+    font-family: Roboto;
+    padding-right: 120px;
+    padding-left: 120px;
+    max-width: 100%;
+    display: flex;
+}
