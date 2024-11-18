@@ -41,6 +41,7 @@ ul {
     justify-content: space-between;
     padding-bottom: 75px;
     padding-top: 75px;
+    gap: 35px;
 }
 
 
@@ -65,6 +66,7 @@ ul {
 
 .hero-text {
     flex: 1;
+    max-width: 500px;
 }
 .hero-img {
     flex: 1;
@@ -75,4 +77,15 @@ ul {
 
 .hero-img img {
     background-color: gray;
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    color: white;
+    line-height: 200px;
+}
+
+img {
+    display: flex;
+    flex-align: center;
+    justify-content: center;
 }
