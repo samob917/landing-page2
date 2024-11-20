@@ -129,15 +129,12 @@ ul {
 .quote {
     background-color: #E5E7EB;
     font-family: Roboto;
-    padding-right: 200px;
-    padding-left: 200px;
+    padding-right: 250px;
+    padding-left: 250px;
+    padding-top: 75px;
+    padding-bottom: 75px;
     max-width: 100%;
     display: flex;
-    font-size: 36px;
-    font-weight: light;
-    font-style: italic;
-    color: #1F2937; 
-    font-weight: light;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
@@ -145,9 +142,50 @@ ul {
 
 .quote-text {
     margin-bottom: 0;
+    font-weight: light;
+    font-style: italic;
+    color: #808080; 
+    font-size: 36px;
 }
 
 .author {
     margin-top: 10px;
     align-self: end;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.call-to-action {
+    font-family: Roboto;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    margin: 100px 200px;
+    align-items: center;
+    padding: 48px;
+    gap: 16px;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.call-to-action h3 {
+    font-size: 18px;
+    color: white;
+    margin: 0px;
+}
+
+.call-to-action p {
+    font-size: 12px;
+    color: #E5E7EB; 
+    margin: 0px;
+}
+
+
+.call-button {
+    height: 36px;
+    width: 96px;
+    background-color: #3882F6;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
 }
